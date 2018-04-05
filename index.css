@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:200');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body{
+    margin: 0px;
+    background-color: dodgerblue;
+}
+img{
+    width: 30%;
+}
+h1{
+    font-size: 200%;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    left: 100%;
+    margin-left: -75%;
+}
+form h2{
+    color: #FFF;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 150%;
+}
+form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 2px #000;
+    padding-left: 15px;
+}
+form select{
+    width: 300px;
+    height: 30px;
+    background-color: #FFF;
+}
+form select:hover{
+    width: 300px;
+    height: 30px;
+    background-color: #ccc;
+}
+form textarea{
+    width: 500px;
+    height: 300px;
+}
+#cont{
+    color: #FFF;
+    font-family: sans-serif;
+}  
+#restante{
+    color: #FFF;
+    font-family: sans-serif;
+}
+custom_fotos {
+	width: 230px;
+	height: 20px;
+	margin: 40px auto;
+    background-color: aqua;
+}
+
+#fotos {
+	width: 230px;
+	height: 20px;
+}
+
+#fotos {
+	padding: 5px;	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	outline: none;
+}
+
+#fotos {
+	width: 350px;
+	height: 24px;
+	background: #7abcff;
+	background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+	background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );    
+    display: inline;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+    border: solid 2px #000;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	padding-top: 8px;
+}
+#fotos:before {
+	content: '';
+	position: absolute;
+	left: 0; right: 0;
+	text-align: center;	
+	cursor: pointer;
+}
+
+/*- ------------------------------------------------------*/ 
+
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: dodgerblue;
+    }
+    h1{
+    font-size: 500%;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    left: 100%;
+    margin-left: -90%;
+}
+form h2{
+    color: #FFF;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 400%;
+}
+form input{
+    width: 800px;
+    height: 150px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 2px #000;
+    font-size: 300%;
+}
+form select{
+    width: 800px;
+    height: 150px;
+    background-color: #FFF;
+    font-size: 400%;
+}
+form select:hover{
+    width: 800px;
+    height: 150px;
+    background-color: #ccc;
+}
+form textarea{
+    width: 800px;
+    height: 400px;
+    font-size: 300%;
+}
+#cont{
+    color: #FFF;
+    font-family: sans-serif;
+}  
+#restante{
+    color: #FFF;
+    font-family: sans-serif;
+}
+custom_fotos {
+	width: 230px;
+	height: 20px;
+	margin: 40px auto;
+    background-color: aqua;
+}
+
+
+#fotos {
+	padding: 5px;	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	outline: none;
+}
+
+#fotos {
+	width: 750px;
+	height: 100px;
+	background: #7abcff;
+	background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+	background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );    
+    display: inline;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+    border: solid 2px #000;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	padding-top: 8px;
+    font-size: 300%;
+}
+#fotos:before {
+	content: '';
+	position: absolute;
+	left: 0; right: 0;
+	text-align: center;	
+	cursor: pointer;
+}
+    #enviar{
+        font-size: 400%;
+    }
+}
