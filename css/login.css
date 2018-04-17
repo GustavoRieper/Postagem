@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400');
+body{
+    margin: 0;
+    background-color: #87d0ec;;
+}
+img{
+    width: 20%;
+}
+.box_login{
+    width: 35%;
+    height: 400px;
+    background-color: dodgerblue;
+    padding: 20px;
+    border-radius: 20px;
+    left: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+.box_login h2{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+.box_login input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%;
+}
+#enviar{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+#enviar:hover{
+    background-color: #eee;
+}

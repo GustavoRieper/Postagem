@@ -1,0 +1,33 @@
+$turma  = $_POST['turma'];
+        
+        echo($turma);
+
+        mysqli_set_charset($conecta,'utf8'); 
+        $sql = "SELECT * FROM solicitacao WHERE turma='$turma'"; 
+        $resultado = mysqli_query($conecta,$sql);
+        $numero_linhas = mysqli_num_rows($resultado);
+        while ($linha = mysqli_fetch_array($resultado)){
+            mysqli_set_charset($conecta,'utf8'); 
+            $nm_solicitante = $linha["nm_solicitante"];
+            $turma          = $linha["turma"];
+            $txt_postagem   = $linha["txt_postagem"];
+            $foto0          = $linha["foto0"];
+            $foto1          = $linha["foto1"];
+            $foto2          = $linha["foto2"];
+            $foto3          = $linha["foto3"];
+            $foto4          = $linha["foto4"];
+            $foto5          = $linha["foto5"];
+            $foto6          = $linha["foto6"];
+            $foto7          = $linha["foto7"];
+            $foto8          = $linha["foto8"];
+            $foto9          = $linha["foto9"];
+            $dt_solicitacao = $linha["dt_solicitacao"];            
+            echo("
+            <div class='linha'>
+                <span id='nm_solicitante'>$nm_solicitante </span>
+                <span id='turma'>$turma </span>
+                <span id='txt_turma'>$txt_postagem </span>                            
+                <span id='dt_solicitacao'>$dt_solicitacao </span>
+                <span id='fotos'>
+                ");
+        }

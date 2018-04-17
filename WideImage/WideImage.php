@@ -1,0 +1,5 @@
+<?php 
+    WideImage::load('big.png')->resize(50, 30)->saveToFile('small.jpg');
+    WideImage::load('pic.jpg')->crop('center', 'center', 90, 50)->output('png');
+
+?>

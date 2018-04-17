@@ -1,0 +1,77 @@
+.linha{
+    background-color: silver;
+    font-size: 10px;
+    height: 130px;
+    padding-top: 15px;
+    transition: all 0.5s;
+    z-index: -99;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.linha:hover{
+    background-color:#d7d7d7;
+    transition: 0.5s;
+}
+.linha:hover #nm_solicitante{
+    font-size: 16px;
+    transition: all 0.5s;
+}
+#cd_solicitante{
+    padding: 5px;
+    background-color: #ccc;
+}
+#nm_solicitante{
+    position: absolute;
+    width: 150px;
+    font-size: 15px;
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+#turma{
+    position: absolute;
+    width: 100px;
+    margin-left: 170px;
+}
+#txt_turma{
+    position: absolute;
+    width: 400px;
+    margin-left: 300px;
+    font-size: 14px;
+}
+#dt_solicitacao{
+    position: absolute;
+    width: 200px;
+    margin-left: 700px;
+}
+#fotos{
+    position: absolute;
+    width: 280px;
+    margin-left: 800px;
+    transition: 0.5s;
+    max-height: ;
+}
+#fotos img{
+    z-index: 1;
+    width: 50px;
+    height: 50px;    
+}
+#status{
+    font-size: 15px;
+    margin-left: 85%;
+    text-align: right;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.buscas{
+    width: 90%;
+    height: 200px;
+    border:solid 2px #000;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-left: 6%;
+    padding: 10px;
+}
+.conteudo{
+    font-size: 15px;
+}
