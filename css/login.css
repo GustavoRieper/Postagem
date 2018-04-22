@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400');
 body{
     margin: 0;
-    background-color: #87d0ec;;
+    background-color: #bbb;;
 }
 img{
     width: 20%;
 }
 .box_login{
-    width: 35%;
+    width: 30%;
     height: 400px;
-    background-color: dodgerblue;
+    background-color: #73bcfb;
     padding: 20px;
     border-radius: 20px;
-    left: 50%;
-    margin-left: 30%;
-    margin-top: 5%;
+    left: 55%;
+    margin-left: 35%;
+    margin-top: 8%;
     text-align: center;
 }
 .box_login h2{
@@ -30,8 +30,9 @@ img{
     border: none;
     padding: 5px;
     margin-bottom: 10px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 120%;
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: center;
 }
 #enviar{
     margin-top: 20px;

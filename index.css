@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
 body{
-    margin: 0px;
-    background-color: dodgerblue;
+    margin-top: 20px;
+    background-color: #f6f6f6;
 }
 img{
     width: 30%;
 }
 h1{
     font-size: 200%;
-    color: #FFF;
+    color: #161616;
     font-family: 'Roboto', sans-serif;
 }
 form{
@@ -22,7 +22,7 @@ form{
     margin-left: -75%;
 }
 form h2{
-    color: #FFF;
+    color: #161616;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 150%;
 }
@@ -49,18 +49,12 @@ form textarea{
     height: 300px;
 }
 #cont{
-    color: #FFF;
+    color: #161616;
     font-family: sans-serif;
 }  
 #restante{
-    color: #FFF;
+    color: #161616;
     font-family: sans-serif;
-}
-custom_fotos {
-	width: 230px;
-	height: 20px;
-	margin: 40px auto;
-    background-color: aqua;
 }
 
 #fotos {
@@ -113,16 +107,24 @@ custom_fotos {
 	text-align: center;	
 	cursor: pointer;
 }
-
+#enviar{
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+#enviar:hover{
+    background-color: #bbb;
+}
 /*- ------------------------------------------------------*/ 
 
 @media only screen and (max-width: 1200px){
     body{
-        background-color: dodgerblue;
+        background-color: #f6f6f6;
+        margin-top: 50px;
     }
     h1{
     font-size: 500%;
-    color: #FFF;
+    color: #161616;
     font-family: 'Roboto', sans-serif;
 }
 form{
@@ -134,7 +136,7 @@ form{
     margin-left: -90%;
 }
 form h2{
-    color: #FFF;
+    color: #161616;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 400%;
 }
@@ -161,20 +163,15 @@ form textarea{
     width: 800px;
     height: 400px;
     font-size: 300%;
+    border: solid 1px #161616
 }
 #cont{
-    color: #FFF;
+    color: #161616;
     font-family: sans-serif;
 }  
 #restante{
-    color: #FFF;
+    color: #161616;
     font-family: sans-serif;
-}
-custom_fotos {
-	width: 230px;
-	height: 20px;
-	margin: 40px auto;
-    background-color: aqua;
 }
 
 
@@ -226,5 +223,9 @@ custom_fotos {
 }
     #enviar{
         font-size: 400%;
+        margin-bottom: 100px;
+    }
+    #contador{
+        font-size: 300%;
     }
 }

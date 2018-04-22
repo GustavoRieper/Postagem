@@ -47,7 +47,9 @@
             </select>
             <hr>
             <h2>Texto para postagem</h2>
-            <span id="cont">300 </span> <span id="restante">Restantes</span> <br>
+            <div id="contador">
+                <span id="cont">300 </span> <span id="restante">Restantes</span> <br>
+            </div>
             <textarea required name="txt_postagem" maxlength="300" onkeyup="limite_textarea(this.value)" id="texto"></textarea>
             <hr>
             <br>
